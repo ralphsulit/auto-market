@@ -18,16 +18,16 @@ const menuItems = [
 
 const Header = () => {
   return(
-    <header className='flex flex-col p-9'>
+    <header className='flex flex-col pb-8'>
       <nav>
-        <div className='container flex flex-col items-center p-6 mx-auto'>
+        <div className='container flex flex-col items-center mx-auto'>
           <Link href='/'>
             <h1 className={`${jost.className} text-3xl`}>
               AutoMarket<span className='text-4xl text-primary'>.</span>
             </h1>
           </Link>
           <div className='flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300'>
-            <ul className='flex flex-wrap gap-x-8 text-gray-900'>
+            <ul className='flex text-gray-900'>
               {menuItems.map(({ url, label }, i) => (
                 <li key={i}>
                   <HeaderNavLink href={url}>{label}</HeaderNavLink>
