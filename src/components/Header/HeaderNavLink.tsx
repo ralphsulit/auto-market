@@ -17,7 +17,8 @@ const HeaderNavLink: React.FC<HeaderNavLinkProps> = ({ href, children }) => {
   return (
     <Link
       href={href}
-      className={`hover:text-primary p-2 ${
+      className={
+        `hover:text-primary mx-2 text-xs sm:mx-6 sm:text-base ${
         active ||
         (href.startsWith('/dashboard') &&
           pathname.startsWith('/dashboard'))
