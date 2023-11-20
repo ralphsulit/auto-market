@@ -36,27 +36,7 @@ const Header = () => {
           </ul>
           </div>
         </div>
-
       </nav>
-      {/* // <div className='py-4 flex items-center justify-between'>
-      //   <Link href='/'>
-      //     <h1 className={`${jost.className} text-3xl`}>
-      //       AutoMarket<span className='text-4xl text-primary'>.</span>
-      //     </h1>
-      //   </Link>
-      //   <nav>
-      //     <ul className='flex flex-wrap gap-x-8 text-gray-900'>
-      //       {menuItems.map(({ url, label }, i) => (
-      //         <li key={i}>
-      //           <HeaderNavLink href={url}>{label}</HeaderNavLink>
-      //         </li>
-      //       ))}
-      //     </ul>
-      //   </nav>
-      //   <Link href='/'>
-      //     <Button />
-      //   </Link>
-      // </div> */}
     </header>
   );
 };
