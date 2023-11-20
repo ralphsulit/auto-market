@@ -11,7 +11,7 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="flex flex-col mx-auto px-4 pt-8 h-screen max-w-4/5">
+    <div className="flex flex-col mx-auto pt-8 h-screen max-w-4/5">
       <div className="flex-grow">
         <Header />
         <main>{children}</main>
