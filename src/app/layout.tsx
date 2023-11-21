@@ -4,7 +4,7 @@ import './globals.css';
 import type { Metadata } from 'next'
 
 // ** Components
-import { rubik } from './ui/fonts'
+import { rubik } from '../components/fonts'
 
 export const metadata: Metadata = {
   title: {

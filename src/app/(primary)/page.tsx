@@ -2,8 +2,8 @@
 import Link from 'next/link'
 
 // ** Components
-import Button from "@/components/Button/Button";
-import Card from '../ui/dashboard/card';
+import Button from '@/components/button/button';
+import Card from '../../components/UI/dashboard/card';
 
 import CardInfo from '../../assets/CardInfo'
 
@@ -19,10 +19,10 @@ export default function Home() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero similique obcaecati illum mollitia.
         </p>
         <Link href={'/login'}>
-          <Button />
+          <Button title='Get Started'/>
         </Link>
       </div>
-      <section>
+      {/* <section>
         <div className="container px-6 py-10 mx-auto my-8">
           <h1 className='text-2xl font-semibold text-gray-800 capitalize lg:text-3xl'>Our Services</h1>
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
@@ -43,7 +43,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   )
 }

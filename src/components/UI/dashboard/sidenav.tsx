@@ -1,6 +1,6 @@
 // ** Nextjs Imports
 import Link from 'next/link';
-import NavLinks from '@/app/ui/dashboard/nav-links'
+import NavLinks from '@/components/UI/dashboard/nav-links'
 
 // ** Icons
 import { PowerIcon } from '@heroicons/react/24/outline';

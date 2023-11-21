@@ -3,10 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // ** Components
-import HeaderNavLink from './HeaderNavLink';
-import Button from '../Button/Button';
+import HeaderNavLink from './header-nav-link';
 
-import { jost } from '@/app/ui/fonts';
+import { jost } from '@/components/fonts';
 
 const menuItems = [
   { label: `Home`, url: '/' },
