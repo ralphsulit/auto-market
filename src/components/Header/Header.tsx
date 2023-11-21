@@ -18,8 +18,8 @@ const menuItems = [
 
 const Header = () => {
   return(
-    <header className='flex flex-col pb-8'>
-      <nav>
+    <header className='flex flex-col'>
+      <nav className='container relative flex items-center justify-between px-6 py-8 mx-auto'>
         <div className='container flex flex-col items-center mx-auto'>
           <Link href='/'>
             <h1 className={`${jost.className} text-3xl`}>
